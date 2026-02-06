@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Constructor Order",
+      "setup": "javac src/SuperConstructorDemo.java",
+      "run": "java -cp src SuperConstructorDemo",
+      "input": "",
+      "output": "Person class\nStudent class",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
